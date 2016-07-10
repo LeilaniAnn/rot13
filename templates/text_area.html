@@ -1,17 +1,12 @@
 {% extends "index.html" %}
 {% block content %}
-
 <div class="text-center">
-    <h2>Enter some text to ROT13:</h2>
-	
-    <form method="POST" action="/">
+   <h2>Enter some text to ROT13:</h2>
+   <form method="POST" action="/">
       <textarea name="text" 
-                style="height: 100px; width: 400px;">{{user_input}}</textarea>
+         style="height: 100px; width: 400px;">{{user_input}}</textarea>
       <br>
       <input type="submit" class="btn btn-info" value="Submit">
-
-    </form>
- 
-    </div>
-
+   </form>
+</div>
 {% endblock %}
